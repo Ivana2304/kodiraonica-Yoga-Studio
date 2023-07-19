@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigacija {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+}
+
+.lijevo {
+    display: block;
+    margin: 5px;
+}
+
+.center {
+    display: block;
+}
+
+.exit {
+    color: gray;
+}
+
+
+h1 {
+    color: #e68387;
+    margin: 2rem;
+}
+
+p {
+    padding: 0.2rem 0;
+}
+
+
+.page {
+    padding: 4rem;
+}
+
+.studio {
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    font-size: 25px;
+}
+
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+
+.left {
+    display: grid;
+    gap:0.5rem;
+}
+
+.image1 {
+    background-image: url("ddd.jpg");
+    background-repeat: no-repeat;
+    height: 330px;
+    width: 220px;
+    background-size: contain;
+}
+
+.image2 {
+    background-image: url("w.jpg");
+    background-repeat: no-repeat;
+    height: 360px;
+    width: 220px;
+    background-size: cover;
+    background-position: 50%;
+}
+
+
+.center {
+    display: block;
+}
+
+.image3 {
+    background-image: url("6928.jpg");
+    height: 700px;
+    width: 460px;
+    background-size: cover;
+    background-position: 50%;
+}
+
+
+.right {
+    display: grid;
+    gap: 0.5rem;
+}
+
+.one {
+    display: block;
+    gap: 1rem;
+}
+
+.image4 {
+    background-image: url("bw.jpg");
+    height: 355px;
+    width: 450px;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.image5 {
+    background-image: url("1.jpg");
+    height: 338px;
+    width: 221px;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.image6 {
+    background-image: url("c.jpg");
+    height: 338px;
+    width: 221px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+
+.end{
+    background-color: #3e3e3e;
+    color: white;
+    padding: 40px 0;
+}
+
+.p1{
+    text-align: center;
+}
+
+.p2{
+    color:#fdcda9}
